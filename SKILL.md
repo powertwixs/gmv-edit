@@ -1,9 +1,11 @@
 ---
 name: gmv-edit
 description: Analyze GMV, Arcane, Jinx and game music video references and edit raw footage to music. Use for reference breakdowns, bass/action synchronization, lyric-aware shot choices, pacing, original drawn accents and native Adobe effects while preserving editable sources. Do not use for unrelated slide shows or avatar videos.
+metadata:
+  version: "0.1.0-beta"
 ---
 
-# GMV Edit
+# GMV Edit — Beta 0.1
 
 Build a music-led sequence from inspected raw footage. Transfer the reference's timing, action continuity, and transition behavior to the user's subject. Reference movies provide editing evidence; they are not footage to insert unless the user requests it.
 

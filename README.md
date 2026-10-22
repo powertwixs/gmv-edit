@@ -1,4 +1,6 @@
-# GMV Edit
+# GMV Edit — Beta 0.1
+
+Release: **Beta 0.1** (`0.1.0-beta`).
 
 An open-source agent skill for music-led game music videos and reference-driven footage editing. It combines bass/action timing, shot continuity, original drawn accents and editable Adobe workflows.
 
