@@ -29,6 +29,8 @@ The structure follows the [official OpenAI skills guide](https://developers.open
 
 ## Use
 
+**Default duration:** if you do not specify a shorter length or music range, edit the entire supplied track from start to finish and keep the music uncut. Short reference windows, effect tests and a request to evaluate the skill do not impose a short-video limit.
+
 ```text
 Use $gmv-edit to create a mixed-game GMV from the supplied game footage.
 Music: [...]. References and passages: [...].

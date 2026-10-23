@@ -15,6 +15,14 @@ An independent mixed-game GMV uses the game/animation sources selected for that 
 
 Separate inherited animation/VFX in supplied films from newly authored cuts, masks and graphics. A static pose matte is not long tracked roto or original character animation. Use supplied media only within the user's authorized scope.
 
+## Default duration: complete music, no cuts
+
+- If the user gives no duration limit or music range, build the edit across the **entire supplied music track, from beginning to end**. Keep the musical intro, breaks and outro. There is no automatic 35/45/60-second cap; another project's Reel brief does not apply. A request to test the skill also does not authorize a shorter song excerpt.
+- In a full-track job, keep the music continuous, in its original order and at its original speed. Do not trim the head/tail, skip sections, loop, rearrange, insert dropouts, time-stretch or add an early fade to fit a shorter montage. Retime and cut the visuals to the music.
+- A user-requested shorter duration, source excerpt, preview or specific editable timeline interval overrides the default for that task. Preserve all protected regions and the user's existing audio. Reference-analysis windows and short effect studies are technical scopes, not delivery-length limits; a partial test must be labeled with its range and must not substitute for the full requested edit.
+- Probe the actual audio extent and plan visual coverage for the whole track before editing. Round video length up to the delivery-frame boundary so the last audio sample is covered. Correct codec/native-app delay using appropriate padding and PTS-aware alignment; do not discard real opening or ending music samples to hide an offset. Verify complete decoded audio coverage in the final export.
+- If the full edit remains unfinished, keep a checkpoint and label any partial output incomplete. Time, render or token limits do not authorize silently shortening the song or presenting a shorter preview as the completed deliverable.
+
 ## Choose the workflow
 
 - For learning or a reference breakdown, read [research protocol](references/research-protocol.md) and [measured examples](references/measured-examples-2026-10-20.md). Establish evidence before writing a treatment. Research is not permission to change the live edit.
@@ -93,7 +101,7 @@ For native Premiere implementation pitfalls, load [Adobe notes](references/adobe
 1. Audit the timeline against the plan: exact editable interval, original media paths, no gaps, no forbidden event/venue shots, limited repeated people, and unchanged protected regions/audio.
 2. Export a draft and inspect every cut's settled frame plus dense frames at special transitions. Fix empty scenes, cut-off subjects, black edges, unintended blur holds, and missing layers.
    When reducing crop/scale, recheck transformed source coverage and the whole shot's recovery. Two renders can match while sharing the same exposed edge. Dark subject backgrounds can conceal a black strip in thumbnails.
-3. Export the corrected sequence/selection. Decode the entire MP4; verify dimensions, exact frame count/FPS, audio channels, loudness and true peak. Measure the final audio, not only its source. Preserve user music/gain unless a correction is needed and authorized.
+3. Export the corrected sequence/selection. Decode the entire MP4; verify dimensions, exact frame count/FPS, audio channels, loudness and true peak. Measure the final audio, not only its source. For a full-track job, verify the original beginning, ending and every intervening music section remain continuous and the video covers the complete audio extent. Preserve user music/gain unless a correction is needed and authorized.
 4. Deliver the native project, a usable review MP4, and any necessary editable effect source. Clearly mark a middle-only preview and its original timeline range. Keep the part the user will finish untouched.
 
 Report only what was verified. A valid XML/media-link check alone does not prove a native render; an inspected contact sheet does not prove uninterrupted playback.

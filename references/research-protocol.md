@@ -40,6 +40,8 @@ Use real absolute paths for execution. reference_window requires FFmpeg/ffprobe/
 
 ## Musical evidence
 
+For a production edit, default to the complete supplied track unless the user specifies a shorter duration, excerpt or editable interval. The commands above analyze short windows; `--duration 8` is not permission to make an eight-second deliverable. Cover the full track with analysis windows and a phrase map; do not treat a historical study excerpt as the new job's duration.
+
 - Extract the actual music used, including edits/source offset. Account for audio/video start times and encoder delay. Evaluate the final rendered audio when checking delivery sync.
 - Separate low-band percussive attack candidates, higher percussive attacks, broad onsets and energy envelope. Useful exploratory bands: kick 35–160 Hz, broader bass 30–200 Hz, snare-like 600–6000 Hz. These are estimates, not instrument stem isolation.
 - Distorted bass, vocal consonants, effects and guitars can trigger these bands. Keep HPSS/FFT window size, hop and timing uncertainty with results. Do not interpret a 4 ms numeric difference as 4 ms perceptual accuracy.
@@ -66,7 +68,7 @@ Before building a complex effect, make a 1–3 s study with the real subject. Ju
 
 ## Production prompt template
 
-"Use $gmv-edit. Read the live brief and current coverage ledger. Project/native app: [...]. Allowed raw source roots: [...]. Protected timeline/audio ranges: [...]. Exclusions and repeat-person limits: [...]. Delivery aspect/FPS: [...]. Music file and exact edit/source mapping: [...]. Reference ID + inspected time windows: [...]. Borrow these observed relationships: [...]. Graphics allowed: [...]. For each chosen action, log preparation/contact/recovery and the target musical event. Produce a shot/action map and one representative effect study before the full build. Keep source clips editable. Verify music, action and cut timing separately; inspect the actual native export and do not restore user-deleted ranges. Report viewed vs inferred vs pending evidence."
+"Use $gmv-edit. Read the live brief and current coverage ledger. Project/native app: [...]. Allowed raw source roots: [...]. Protected timeline/audio ranges: [...]. Exclusions and repeat-person limits: [...]. Delivery aspect/FPS: [...]. Duration: user-specified [...] or, if unspecified, the complete track with no music cuts. Music file and exact source mapping: [...]. Reference ID + inspected time windows: [...]. Borrow these observed relationships: [...]. Graphics allowed: [...]. For each chosen action, log preparation/contact/recovery and the target musical event. Produce a shot/action map and one representative effect study before the full build. Keep source clips editable. Verify music, action and cut timing separately; inspect the actual native export and do not restore user-deleted ranges. Report viewed vs inferred vs pending evidence."
 
 ## Research continuation
 
