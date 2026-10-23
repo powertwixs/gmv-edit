@@ -1,10 +1,20 @@
-# GMV Edit — Beta 0.1
+# GMV Edit — Beta 0.1.1
 
-Release: **Beta 0.1** (`0.1.0-beta`).
+Release: **Beta 0.1.1** (`0.1.1-beta`).
 
-An open-source agent skill for music-led game music videos and reference-driven footage editing. It combines bass/action timing, shot continuity, original drawn accents and editable Adobe workflows.
+An open-source agent skill for music-led game music videos, live-action Reels and reference-driven footage editing. It combines bass/action timing, shot continuity, original drawn accents and editable Adobe workflows.
 
 This is a skill with instructions and analysis helpers, not a trained model, Adobe plugin or automatic one-click video editor.
+
+## Beta 0.1.1 yenilikleri
+
+- [Reels Kurgu Önerileri](references/reels-kurgu-onerileri/SKILL.md): etkinlik/marka videolarında kamera açısı, dijital kadraj, fotoğraf hareketi, ritim ve doğal renk rehberi.
+- Küçük ve uzaktaki kompakt öznelerde odaklı Scale yakınlaşma/uzaklaşma; yatayda yayılan içerikte Position taraması. Hareket her fotoğrafın yapısına göre seçilir.
+- En iyi gerçek çekim açısını seçme; geniş/orta/detay/tepki çeşitliliği ve hareket boyunca kadraj kontrolü.
+- Gerçek kick/trampet ataklarını dikkate alma, izin verilen kısa müzik kesitlerinde durup yeniden başlıyormuş hissini kontrol etme ve çekim bazında doğal, canlı renk eşleme.
+- Metin tabanlı MAFEN inceleme örneği ve açık kanıt sınırları. Özel medya pakete dahil değildir.
+
+Süre belirtilmezse **tam ve kesintisiz müzik** varsayılanı korunur; kullanıcının açık kısa süre/bölüm talebi önceliklidir. Ayrıntılar: [sürüm notları](CHANGELOG.md).
 
 ## What it does
 
@@ -40,7 +50,7 @@ Inspect the sources, map preparation/action/reaction to the music,
 and verify the actual native export before calling it finished.
 ```
 
-For a live-action promo, specify the allowed camera footage and venue instead. A new independent game GMV must not silently reuse an unrelated client edit.
+For a live-action promo, specify the allowed camera footage and venue instead. Event/brand Reels with footage and photos load the Reels submodule through the parent skill; set a short duration explicitly when required. A new independent game GMV must not silently reuse an unrelated client edit.
 
 ## Optional Python tools
 

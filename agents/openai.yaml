@@ -1,4 +1,4 @@
 interface:
-  display_name: "GMV Edit — Beta 0.1"
+  display_name: "GMV Edit — Beta 0.1.1"
   short_description: "Music-led GMV editing, analysis and native effects"
   default_prompt: "Use $gmv-edit to build a music-led edit from my footage and GMV references, with editable sources."

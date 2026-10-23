@@ -1,11 +1,11 @@
 ---
 name: gmv-edit
-description: Analyze GMV, Arcane, Jinx and game music video references and edit raw footage to music. Use for reference breakdowns, bass/action synchronization, lyric-aware shot choices, pacing, original drawn accents and native Adobe effects while preserving editable sources. Do not use for unrelated slide shows or avatar videos.
+description: Analyze GMV, Arcane, Jinx and game music video references and edit raw footage to music. Use for reference breakdowns, bass/action synchronization, lyric-aware shot choices, pacing, original drawn accents, native Adobe effects and music-led Reels with live footage/photos, while preserving editable sources. Do not use for unrelated slide shows or avatar videos.
 metadata:
-  version: "0.1.0-beta"
+  version: "0.1.1-beta"
 ---
 
-# GMV Edit — Beta 0.1
+# GMV Edit — Beta 0.1.1
 
 Build a music-led sequence from inspected raw footage. Transfer the reference's timing, action continuity, and transition behavior to the user's subject. Reference movies provide editing evidence; they are not footage to insert unless the user requests it.
 
@@ -25,6 +25,7 @@ Separate inherited animation/VFX in supplied films from newly authored cuts, mas
 
 ## Choose the workflow
 
+- For music-led event/brand Reels combining live footage and photos, load the [Reels Kurgu Onerileri subskill](references/reels-kurgu-onerileri/SKILL.md). It adds camera-angle selection, subject-led reframing and per-image motion choices; the current brief and this skill's duration rules still apply.
 - For learning or a reference breakdown, read [research protocol](references/research-protocol.md) and [measured examples](references/measured-examples-2026-10-20.md). Establish evidence before writing a treatment. Research is not permission to change the live edit.
 - For the expanded 25-reference library, additional every-frame drawings, provisional lyric readings and verified native tool behavior, read [second study pass](references/study-update-2026-10-20.md).
 - For footage editing, follow the sequence audit, source selection, rhythm and verification steps below. The current brief decides whether graphics are allowed.
@@ -68,6 +69,14 @@ For lyric-to-image work, first verify the audible phrase and its time range. Des
 - Rotate wide activity, medium action, detail, and reaction. Match a ball strike, jump, landing, reach, turn, or camera direction into the next shot. Avoid repeatedly returning to the same person or nearly identical angle.
 - When action sync is disputed, inspect the action densely at 0.05-0.15 s intervals. A shot midpoint or an activity label cannot establish the exact contact/landing frame. Check preparation, contact/apex and recovery; never label a walk through a foam pit as a jump without seeing it. Cut-onset accuracy and action-onset accuracy are separate checks.
 - Prefer an occupied game to an empty equipment pan. A drone shot must stay visibly inside the allowed venue; a panorama that crosses an adjacent corridor is not automatically acceptable.
+
+## Choose still-photo motion by the subject
+
+When still photos are part of the requested edit:
+
+- Inspect the subject's size and distribution before choosing motion. For a small, distant person or compact group concentrated in one area, prefer a smoothly eased **scale push-in or pull-out**, anchored on that subject. Establish a readable crop first; a tiny zoom on a mostly empty wide frame may still leave the people too small.
+- Use a **position pan** when important content is spread across the image and needs a lateral reveal. Full-screen presentation alone does not call for panning every photo. Choose motion per image, while respecting any explicit user choice of motion or direction.
+- Set scale endpoints from source resolution and the room around faces, heads, feet and important props. Keep the focal area stable and inspect the first, middle and final frames for readable subjects, smooth motion and covered edges. Preserve editable native scale/position keyframes.
 
 ## Build rhythm around the actual song
 
