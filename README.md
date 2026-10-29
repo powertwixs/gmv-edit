@@ -1,12 +1,19 @@
-# GMV Edit — Beta 0.1.1
+# GMV Edit — Beta 0.1.2
 
-Release: **Beta 0.1.1** (`0.1.1-beta`).
+Release: **Beta 0.1.2** (`0.1.2-beta`).
 
 An open-source agent skill for music-led game music videos, live-action Reels and reference-driven footage editing. It combines bass/action timing, shot continuity, original drawn accents and editable Adobe workflows.
 
 This is a skill with instructions and analysis helpers, not a trained model, Adobe plugin or automatic one-click video editor.
 
-## Beta 0.1.1 yenilikleri
+## Beta 0.1.2 yenilikleri
+
+- [Etkinlik Reels akışı](references/event-reels-workflow.md): tam konuşma, J/L cut, kesintisiz fon, hareketli çift/grup kadrajı ve taslak sonrası düzeltme.
+- [Kopyalanabilir Türkçe brief](references/event-reels-handoff.md): Antigravity veya başka bir kurgu ajanına güncel kaynak, süre ve teslim koşullarını aktarmak için.
+- Kaydedilmiş Premiere dosyasından bağımsız doğrulama; stereo stem, HDR/Rec.709, Motion ve yinelenen Lumetri özellik adları için [native notlar](references/adobe-notes.md).
+- Güncel revizyonu esas alma ve manuel düzeltmeleri son plana işleme; eski oluşturucuyla reddedilmiş seçimleri geri getirmeme.
+
+## Beta 0.1.1 ile gelenler
 
 - [Reels Kurgu Önerileri](references/reels-kurgu-onerileri/SKILL.md): etkinlik/marka videolarında kamera açısı, dijital kadraj, fotoğraf hareketi, ritim ve doğal renk rehberi.
 - Küçük ve uzaktaki kompakt öznelerde odaklı Scale yakınlaşma/uzaklaşma; yatayda yayılan içerikte Position taraması. Hareket her fotoğrafın yapısına göre seçilir.

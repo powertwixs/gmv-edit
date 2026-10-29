@@ -11,6 +11,18 @@ These are locally verified implementation hazards; recheck tool support in a new
 - Whole-sequence export and in/out export can differ by a frame in the bridge. Probe the actual exported frame count and correct the export range before delivery. Do not infer duration solely from the export API's success string.
 - The local native EPR can omit BT.709 H264 VUI; remux `h264_metadata` plus colour flags without a needless second video encode when correcting metadata only.
 
+## Event Reels, verified in local October 2026 deliveries
+
+- A loaded/live sequence and the saved delivery `.prproj` are separate evidence. Direct `app.project.importSequences(path, [sequenceID], app.project.rootItem)` loaded the saved sequence into a separate QA project when the local bridge wrapper supplied the wrong argument shape. The imported sequence may receive a new ID. Audit source/time/speed/grade/audio and Motion samples after loading; XML parsing alone is insufficient. Keep all project documents and unsaved user work safe.
+- With multiple project documents open, check the active project's path and explicitly select the intended sequence. `open_project` alone did not reliably align both pointers locally. Do not close an unrelated project to force selection.
+- For the tested 1x Motion clips, key times used source in-point plus local time. This does not override the retimed-clip clock findings below. Inspect first/middle/last native output on each new timing/effect context.
+- In the tested unrotated, centered-anchor 3840x2160 clips, native Position readback was normalized to sequence width/height. To put source center `(cx,cy)` in a 1080x1920 frame at scale `s` percent: `x=0.5+(1920-cx)*(s/100)/1080`, `y=0.5+(1080-cy)*(s/100)/1920`. Verify rotation, anchor, scale-to-frame behavior and actual output before using this conversion on another source.
+- Lumetri property display names can repeat. In this local build, a later `Saturation` property was Boolean; a map keyed only by label selected the wrong control. Inspect property indices, labels and value types, then assert the expected identity before writing. Local indices are not portable across versions/components.
+- Read back Rec.709 working space, `autoToneMapEnabled` and `autoInputGamutCompressionEnabled` for HDR originals. Inspect actual rendered skin/whites/shadows; setting H.264 color flags cannot perform tone mapping.
+- Native stereo WAV music/speech stems were used after an interchange route yielded one-sided audio. Check each rendered channel and measured source/master alignment. If a corrected final audio mux is needed, verify native picture samples and separately verify the saved native audio tracks.
+
+Creative context, failure corrections and case measurements: [event Reels workflow](event-reels-workflow.md).
+
 ## Premiere 26.5.2 retimed effects: historical local test
 
 - On these newly inserted raw clips, setting Motion and the locally resolved `Directional Blur` keys at `clip.inPoint.seconds + localSeconds` made some sped-up clips blurred through their entire shot. The resolved blur exposes `Angle` and `Amount`, rather than the older `Direction` / `Blur Length` property names. Always inspect the actual component.

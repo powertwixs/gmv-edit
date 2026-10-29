@@ -1,5 +1,19 @@
 # Sürüm notları
 
+## Beta 0.1.2 — 29 Ekim 2026
+
+Paket sürümü: `0.1.2-beta` · Git etiketi: `v0.1.2-beta`
+
+- **Etkinlik Reels akışı:** tam konuşma cümlesi, J/L cut, ilgili iç görüntüler, kesintisiz müzik ve konuşma altında yumuşak fon seviyesi için kaynak temelli kararlar eklendi.
+- **Hareketli özne ve grup kadrajı:** dans çiftinin iki üyesini koruma, öndeki kişinin grubu kapatmasını kontrol etme ve ilk/orta/son/kritik karelerle taslak düzeltme yöntemi eklendi.
+- **Revizyon bütünlüğü:** güncel açılış geri bildirimi, görsel referansın kaynakta eşleştirilmesi, korunan ses ve manuel düzeltmelerin son plana işlenmesi netleştirildi.
+- **Native Premiere doğrulaması:** kaydedilmiş projeden bağımsız sequence yükleme, çoklu projede aktif sequence kontrolü, stereo stemler, Motion saatleri, yinelenen Lumetri özellik adları ve HDR/Rec.709 kontrolleri belgelendi.
+- **Taşınabilir Türkçe brief:** Antigravity veya başka bir kurgu ajanına verilebilen, araç ve kanıt sınırları açık bir kopyalama metni eklendi.
+
+Süre belirtilmezse tam/kesintisiz müzik kuralı korunur. Kısa Reel sınırı yalnız güncel brief veya açıkça devam eden seri kapsamında uygulanır. Örnek değerler başka işe sabit reçete değildir; viral sonuç veya başka modelde aynı kalite garantisi verilmez.
+
+Bu sürüm talimat/referans güncellemesidir. Yerel tamamlanmış teslimin teknik QA kayıtları ve native kontrol scriptleri incelenerek yöntemler çıkarıldı; özel görüntü, müzik, proje ve mesajlar paylaşılmaz. Bu yayın sırasında yeni müşteri videosu render edilmedi. Dört Python analiz aracı değişmedi. Ana skill/alt modül yapısı, bağlantılar, sürüm ve paket eşliği yayın öncesinde kontrol edilir.
+
 ## Beta 0.1.1 — 23 Ekim 2026
 
 Paket sürümü: `0.1.1-beta` · Git etiketi: `v0.1.1-beta`

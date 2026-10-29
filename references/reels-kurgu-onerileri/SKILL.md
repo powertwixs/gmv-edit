@@ -46,6 +46,8 @@ Ana skill'in [özneye göre Scale/Position seçimi](../../SKILL.md#choose-still-
 
 ## Çıktıda kontrol et
 
+Konuşma, koro veya sahne performansı içeren işlerde [etkinlik Reels akışını](../event-reels-workflow.md) oku. Tam konuşma cümlesi üstüne iç mekân görüntüsü bindirme, kesintisiz müzik altında yumuşak fon seviyesi, hareketli çift/grupta kadraj ve diskten açılan native proje kontrolü bu rehberdedir. Yeni açılış talebini güncel revizyondan al; önceki işte seçilen çocuk, bayrak, kalabalık veya sahne sırasını başka işe otomatik taşıma.
+
 Kurgu uygulanmışsa her yeniden kadrajlanan çekimin ve fotoğraf hareketinin başını, ortasını ve sonunu; ayrıca hızlı aksiyonun kritik anını incele. Güzel kadraj, hareketin tamamında okunur özne, kenar boşluğu olmaması, çözünürlük ve komşu planla yön/renk uyumunu birlikte kontrol et. Native Scale/Position anahtarlarını düzenlenebilir tut.
 
 Salt inceleme veya skill geliştirme talebinde kaynak videoyu yeniden kurgulama. Bulguyu, kullanıcı tercihini ve kurgu önerisini birbirinden ayır. Örneklenen kareler kesintisiz izleme veya sesin dinlenmiş olması anlamına gelmez.

@@ -2,10 +2,10 @@
 name: gmv-edit
 description: Analyze GMV, Arcane, Jinx and game music video references and edit raw footage to music. Use for reference breakdowns, bass/action synchronization, lyric-aware shot choices, pacing, original drawn accents, native Adobe effects and music-led Reels with live footage/photos, while preserving editable sources. Do not use for unrelated slide shows or avatar videos.
 metadata:
-  version: "0.1.1-beta"
+  version: "0.1.2-beta"
 ---
 
-# GMV Edit — Beta 0.1.1
+# GMV Edit — Beta 0.1.2
 
 Build a music-led sequence from inspected raw footage. Transfer the reference's timing, action continuity, and transition behavior to the user's subject. Reference movies provide editing evidence; they are not footage to insert unless the user requests it.
 
@@ -26,6 +26,7 @@ Separate inherited animation/VFX in supplied films from newly authored cuts, mas
 ## Choose the workflow
 
 - For music-led event/brand Reels combining live footage and photos, load the [Reels Kurgu Onerileri subskill](references/reels-kurgu-onerileri/SKILL.md). It adds camera-angle selection, subject-led reframing and per-image motion choices; the current brief and this skill's duration rules still apply.
+- For event Reels with original speech, choir/performance footage, moving groups or revision feedback, read [event Reels workflow](references/event-reels-workflow.md). It covers continuous music under complete speech, J/L cuts, moving-subject crops and saved-project verification. A [compact Turkish handoff](references/event-reels-handoff.md) is available for another agent; fill it from the current brief rather than inheriting a client's opening or duration.
 - For learning or a reference breakdown, read [research protocol](references/research-protocol.md) and [measured examples](references/measured-examples-2026-10-20.md). Establish evidence before writing a treatment. Research is not permission to change the live edit.
 - For the expanded 25-reference library, additional every-frame drawings, provisional lyric readings and verified native tool behavior, read [second study pass](references/study-update-2026-10-20.md).
 - For footage editing, follow the sequence audit, source selection, rhythm and verification steps below. The current brief decides whether graphics are allowed.
@@ -112,5 +113,6 @@ For native Premiere implementation pitfalls, load [Adobe notes](references/adobe
    When reducing crop/scale, recheck transformed source coverage and the whole shot's recovery. Two renders can match while sharing the same exposed edge. Dark subject backgrounds can conceal a black strip in thumbnails.
 3. Export the corrected sequence/selection. Decode the entire MP4; verify dimensions, exact frame count/FPS, audio channels, loudness and true peak. Measure the final audio, not only its source. For a full-track job, verify the original beginning, ending and every intervening music section remain continuous and the video covers the complete audio extent. Preserve user music/gain unless a correction is needed and authorized.
 4. Deliver the native project, a usable review MP4, and any necessary editable effect source. Clearly mark a middle-only preview and its original timeline range. Keep the part the user will finish untouched.
+   Verify the saved delivery file independently of the live timeline: reopen it safely or import its saved sequence into a separate QA project. Recheck original links, in/out, speed, audio channels and first/middle/last Motion values against the final plan. Valid project XML alone does not prove saved native behavior. Keep the final plan synchronized with manual revisions so an older generator cannot restore rejected selections.
 
 Report only what was verified. A valid XML/media-link check alone does not prove a native render; an inspected contact sheet does not prove uninterrupted playback.
