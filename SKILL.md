@@ -1,11 +1,11 @@
 ---
 name: gmv-edit
-description: Analyze GMV, Arcane, Jinx and game music video references and edit raw footage to music. Use for reference breakdowns, bass/action synchronization, lyric-aware shot choices, pacing, original drawn accents, native Adobe effects and music-led Reels with live footage/photos, while preserving editable sources. Do not use for unrelated slide shows or avatar videos.
+description: Analyze GMV, Arcane, Jinx and game music video references and edit raw footage to music. Use for reference breakdowns, bass/action synchronization, lyric-aware shot choices, pacing, original drawn accents, native Adobe effects, music-led Reels with live footage/photos, and branding revisions to approved Reels, while preserving editable sources. Do not use for unrelated slide shows or avatar videos.
 metadata:
-  version: "0.1.2-beta"
+  version: "0.1.3-beta"
 ---
 
-# GMV Edit — Beta 0.1.2
+# GMV Edit — Beta 0.1.3
 
 Build a music-led sequence from inspected raw footage. Transfer the reference's timing, action continuity, and transition behavior to the user's subject. Reference movies provide editing evidence; they are not footage to insert unless the user requests it.
 
@@ -25,7 +25,7 @@ Separate inherited animation/VFX in supplied films from newly authored cuts, mas
 
 ## Choose the workflow
 
-- For music-led event/brand Reels combining live footage and photos, load the [Reels Kurgu Onerileri subskill](references/reels-kurgu-onerileri/SKILL.md). It adds camera-angle selection, subject-led reframing and per-image motion choices; the current brief and this skill's duration rules still apply.
+- For music-led event/brand Reels and branding revisions to an approved Reel, load the [Reels Kurgu Onerileri subskill](references/reels-kurgu-onerileri/SKILL.md). It routes camera selection, subject-led reframing, still-photo motion and reusable brand overlays. Follow the current brief and the applicable duration rules above.
 - For event Reels with original speech, choir/performance footage, moving groups or revision feedback, read [event Reels workflow](references/event-reels-workflow.md). It covers continuous music under complete speech, J/L cuts, moving-subject crops and saved-project verification. A [compact Turkish handoff](references/event-reels-handoff.md) is available for another agent; fill it from the current brief rather than inheriting a client's opening or duration.
 - For learning or a reference breakdown, read [research protocol](references/research-protocol.md) and [measured examples](references/measured-examples-2026-10-20.md). Establish evidence before writing a treatment. Research is not permission to change the live edit.
 - For the expanded 25-reference library, additional every-frame drawings, provisional lyric readings and verified native tool behavior, read [second study pass](references/study-update-2026-10-20.md).

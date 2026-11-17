@@ -1,10 +1,15 @@
-# GMV Edit — Beta 0.1.2
+# GMV Edit — Beta 0.1.3
 
-Release: **Beta 0.1.2** (`0.1.2-beta`).
+Release: **Beta 0.1.3** (`0.1.3-beta`).
 
 An open-source agent skill for music-led game music videos, live-action Reels and reference-driven footage editing. It combines bass/action timing, shot continuity, original drawn accents and editable Adobe workflows.
 
 This is a skill with instructions and analysis helpers, not a trained model, Adobe plugin or automatic one-click video editor.
+
+## Beta 0.1.3 yenilikleri
+
+- [Marka Reels şablonu](references/brand-reels-template.md), onaylı kurgu ve sesi koruyarak fiyat maskeleme, sabit alt imza ve tekrar kullanılabilen şeffaf kapanış hazırlamayı kapsar.
+- Rehber, alfa çıktının kompozit üzerindeki davranışını, kaynak ses eşliğini ve düzenlenebilir projenin yeniden açılmasını doğrulama adımları içerir.
 
 ## Beta 0.1.2 yenilikleri
 

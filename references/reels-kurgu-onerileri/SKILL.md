@@ -1,6 +1,6 @@
 ---
 name: reels-kurgu-onerileri
-description: GMV Edit icinden kullanilan Reels kurgu alt modulu. Muzik odakli etkinlik ve marka videolarinda kaynak kamera acisi secimi, dijital kadraj, fotograf hareketi, ritim ve dogal renk duzenlemesi icin kullanilir.
+description: GMV Edit icinden kullanilan Reels kurgu alt modulu. Muzik odakli etkinlik ve marka videolarinda kaynak kamera acisi secimi, dijital kadraj, fotograf hareketi, ritim, dogal renk ve onayli kurguya marka sablonu uygulamak icin kullanilir.
 ---
 
 # Reels Kurgu Önerileri
@@ -8,6 +8,8 @@ description: GMV Edit icinden kullanilan Reels kurgu alt modulu. Muzik odakli et
 Bu dosya GMV Edit'in gerektiğinde okunan alt modülüdür. Müzik odaklı etkinlik/marka Reels işinde [ana GMV skill'i](../../SKILL.md) ile birlikte kullan. GMV'nin iş akışındaki bağlantı üzerinden okunur.
 
 Kullanıcının güncel brief'i, ölçüleri, süre sınırı ve korunan bölümleri geçerlidir. “Reels” sözcüğü kendiliğinden kısa müzik kesiti izni veya 20/30 saniye sınırı oluşturmaz. Ana skill'in süre, kaynak koruma, düzenlenebilir proje ve doğrulama kuralları devam eder.
+
+Onaylı kurguda fiyat gizleme, sabit alt imza veya tekrar kullanılabilen kapanış istendiğinde [marka Reels şablonu rehberini](../brand-reels-template.md) kullan. Görsel revizyonu onaylı zaman çizelgesi ve ses üzerine uygula.
 
 ## Önce iyi kaynak açısını seç
 

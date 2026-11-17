@@ -1,5 +1,13 @@
 # Sürüm notları
 
+## Beta 0.1.3 — 17 Kasım 2026
+
+Paket sürümü `0.1.3-beta` · Git etiketi `v0.1.3-beta`
+
+- Onaylı bir Reel'de fiyatları maskeleme ve marka şablonu ekleme sırasında planları, zamanlamayı ve sesi koruma yöntemi eklendi.
+- Sabit PNG imza, alfa kanallı kapanış ve düzenlenebilir kompozisyon için teslim ve doğrulama adımları belgelendi.
+- Rehber, mevcut bir şablonun proje açma ve teslim kontrollerinden türetildi. Güncelleme, iş akışı talimatları ve doğrulama adımlarını içerir.
+
 ## Beta 0.1.2 — 29 Ekim 2026
 
 Paket sürümü: `0.1.2-beta` · Git etiketi: `v0.1.2-beta`
